@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="icon"
+			type="img/png"
+			sizes="32x32"
+			href="./img/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | NFT preview card component</title>
+	</head>
+	<body>
+		<!-- main -->
+		<main>
+			<section class="hero">
+				<video class="video" autoplay muted loop>
+					<source
+						src="video/video-equilibrium.mp4"
+						type="video/mp4"
+						aria-hidden="true"
+					/>
+					"Your browser does not support this video type."
+				</video>
+				<div class="hero-hover"></div>
+			</section>
+			<h1 class="title">Equilibrium #3429</h1>
+			<p class="description">
+				Our Equilibrium collection promotes balance and calm.
+			</p>
+			<!-- data -->
+			<section class="data">
+				<!-- price -->
+				<div class="price">
+					<img src="img/icon-ethereum.svg" alt="" aria-hidden="true" />
+					<p>0.041 ETH</p>
+				</div>
+
+				<!-- time-left -->
+				<div class="time-left">
+					<img src="img/icon-clock.svg" alt="" aria-hidden="true" />
+					<p>3 days left</p>
+				</div>
+			</section>
+			<hr />
+			<!-- author -->
+			<section class="author">
+				<img src="img/image-avatar.png" alt="" aria-hidden="true" />
+				<p>Creation of <span>Jules Wyvern</span></p>
+			</section>
+		</main>
+		<!-- footer -->
+		<footer class="attribution">
+			<p>
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U"
+					target="_blank"
+					>Frontend Mentor</a
+				>. <br />Coded by
+				<a
+					href="https://www.frontendmentor.io/profile/inappdesign"
+					target="_blank"
+					>John McNichol</a
+				>.
+			</p>
+		</footer>
+	</body>
+</html>
